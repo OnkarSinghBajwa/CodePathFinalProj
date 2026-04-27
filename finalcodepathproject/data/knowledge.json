@@ -1,0 +1,62 @@
+[
+  {
+    "id": "feed_dog_adult",
+    "topic": "feeding dog adult",
+    "tags": ["dog", "feeding", "adult", "food"],
+    "text": "Adult dogs typically eat twice a day, morning and evening, with portion size based on weight. Avoid grapes, chocolate, onions, and xylitol."
+  },
+  {
+    "id": "feed_dog_puppy",
+    "topic": "feeding dog puppy",
+    "tags": ["dog", "feeding", "puppy", "food"],
+    "text": "Puppies under six months need three to four small meals per day with puppy-formulated food rich in protein and DHA."
+  },
+  {
+    "id": "feed_cat",
+    "topic": "feeding cat",
+    "tags": ["cat", "feeding", "food"],
+    "text": "Cats are obligate carnivores. Feed wet or dry food twice daily. Always provide fresh water and avoid dog food, which lacks taurine."
+  },
+  {
+    "id": "walk_dog",
+    "topic": "walking dog",
+    "tags": ["dog", "walk", "exercise"],
+    "text": "Most adult dogs need at least thirty minutes of walking daily. High-energy breeds like huskies and border collies need one to two hours."
+  },
+  {
+    "id": "med_safety",
+    "topic": "medication safety",
+    "tags": ["medication", "meds", "safety", "vet"],
+    "text": "Never give human medication to pets without vet approval. Ibuprofen and acetaminophen are toxic to dogs and cats."
+  },
+  {
+    "id": "vet_visits",
+    "topic": "vet appointments",
+    "tags": ["vet", "checkup", "appointment", "health"],
+    "text": "Healthy adult pets need a vet checkup once a year. Senior pets over seven and puppies/kittens need visits every six months."
+  },
+  {
+    "id": "grooming_cat",
+    "topic": "grooming cat",
+    "tags": ["cat", "grooming", "brush"],
+    "text": "Brush short-haired cats weekly and long-haired cats daily to prevent mats and reduce hairballs."
+  },
+  {
+    "id": "grooming_dog",
+    "topic": "grooming dog",
+    "tags": ["dog", "grooming", "bath", "brush"],
+    "text": "Bathe dogs every four to six weeks. Brush short coats weekly and double coats two to three times per week."
+  },
+  {
+    "id": "task_priority",
+    "topic": "task scheduling priority",
+    "tags": ["schedule", "priority", "task", "conflict"],
+    "text": "When tasks conflict, prioritize medications first, then feedings, then walks, then grooming. Medications are time-sensitive and should not be delayed."
+  },
+  {
+    "id": "exercise_cat",
+    "topic": "cat exercise",
+    "tags": ["cat", "exercise", "play"],
+    "text": "Cats need fifteen to twenty minutes of active play twice daily. Use wand toys and laser pointers to keep them engaged."
+  }
+]

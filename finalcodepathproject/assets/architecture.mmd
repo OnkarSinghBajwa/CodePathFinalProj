@@ -1,0 +1,11 @@
+flowchart TD
+    User[User<br/>Streamlit / CLI] --> UI[app.py / main.py<br/>UI + session state]
+    UI --> Agent[PawPalAgent<br/>plan -> act -> check]
+    UI --> Logic[pawpal_system.py<br/>Owner / Pet / Task / Scheduler]
+    Agent --> Retriever[retriever.py<br/>TF-IDF + cosine RAG]
+    Agent --> Guard[Guardrails<br/>toxic-term filter<br/>confidence + log]
+    Agent -.reads.-> Logic
+    Retriever --> KB[(data/knowledge.json<br/>10 entries)]
+    Logic -.tested by.-> Tests[tests/test_pawpal.py<br/>12 pytest cases]
+    Agent -.evaluated by.-> Eval[evaluate.py<br/>7-case harness]
+    Guard -.logs.-> Log[(pawpal.log)]
